@@ -2,7 +2,7 @@ package ru.geekbrains.java_1.lesson_1.homework;
 
 // Оказалось непонятным в каких случаях используется возвратный метод, а в каких нет.
 // И не очень понятно про преобразование типа переменных.
-public class Homework {
+public class Homework_1 {
     public static void main(String[] args) {
         System.out.println(first(2, 5, 11, 6)); // вычисление выражения
         System.out.println(second(9, 1));             // число в пределах 10 и 20
