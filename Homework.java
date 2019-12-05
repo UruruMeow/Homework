@@ -44,7 +44,8 @@ public class Homework {
     private static void fifth(int a) {
         int c = a % 4;
         int b = a % 400;
-        if (c == 0 && c != 100 || b == 0){
+        int d = a % 100;
+        if (c == 0 && d = 100 || b == 0){
             System.out.println("Год високосный");
         } else {
             System.out.println("Год не високосный");
